@@ -9,7 +9,10 @@ The dataset for this project is publicly available here: https://www.kaggle.com/
 **Method**
 
 The analysis is split in two steps:
-- **Predict** the demand for the next month using Optimal Regression Trees (Bertsimas et al., 2017). 
+- **Predict** the demand for the next month using Optimal Regression Trees (Bertsimas et al., 2017). This results in the following tree
+
+![](Images/tree.png)
+
 - **Optimize** the dock allocation to minimize the number of days with low stock of free docks using a Mixed Integer Optimization (MIO) formulation. The program is optimized to solve in under 3 seconds.  
 
 **Languages**
